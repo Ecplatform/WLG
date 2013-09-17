@@ -41,6 +41,49 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vshop_Application.cs" />
+    <Compile Include="Vshop_Attributes.cs" />
+    <Compile Include="Vshop_AttributeValues.cs" />
+    <Compile Include="Vshop_BrandCategories.cs" />
+    <Compile Include="Vshop_Buyer.cs" />
+    <Compile Include="Vshop_BuyerInShop.cs" />
+    <Compile Include="Vshop_BuyerOpLogs.cs" />
+    <Compile Include="Vshop_BuyerVisitLogs.cs" />
+    <Compile Include="Vshop_Categories.cs" />
+    <Compile Include="Vshop_Favorite.cs" />
+    <Compile Include="Vshop_MemberShippingAddresses.cs" />
+    <Compile Include="Vshop_Menu.cs" />
+    <Compile Include="Vshop_MerchantCertificatedInfo.cs" />
+    <Compile Include="Vshop_OpLogs.cs" />
+    <Compile Include="Vshop_OrderItems.cs" />
+    <Compile Include="Vshop_Orders.cs" />
+    <Compile Include="Vshop_PaymentTypes.cs" />
+    <Compile Include="Vshop_Permission.cs" />
+    <Compile Include="Vshop_ProductAttributes.cs" />
+    <Compile Include="Vshop_Products.cs" />
+    <Compile Include="Vshop_ProductTag.cs" />
+    <Compile Include="Vshop_ProductTypeBrands.cs" />
+    <Compile Include="Vshop_ProductTypes.cs" />
+    <Compile Include="Vshop_Roles.cs" />
+    <Compile Include="Vshop_RolesPermissions.cs" />
+    <Compile Include="Vshop_Shippers.cs" />
+    <Compile Include="Vshop_ShippingRegions.cs" />
+    <Compile Include="Vshop_ShippingTemplates.cs" />
+    <Compile Include="Vshop_ShippingTypeGroups.cs" />
+    <Compile Include="Vshop_ShippingTypes.cs" />
+    <Compile Include="Vshop_ShopAD.cs" />
+    <Compile Include="Vshop_ShopBasicInfo.cs" />
+    <Compile Include="Vshop_ShopNavigation.cs" />
+    <Compile Include="Vshop_ShoppingCarts.cs" />
+    <Compile Include="Vshop_ShopTheme.cs" />
+    <Compile Include="Vshop_SKUItems.cs" />
+    <Compile Include="Vshop_SKUs.cs" />
+    <Compile Include="Vshop_Tags.cs" />
+    <Compile Include="Vshop_UserInRoles.cs" />
+    <Compile Include="Vshop_Users.cs" />
+    <Compile Include="Vshop_UserShop.cs" />
+    <Compile Include="Vshop_WXMaterial.cs" />
+    <Compile Include="Vshop_WXReply.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -12,6 +12,8 @@ namespace WLG.Filter
                 ViewName = "Error",
                 ViewData = filterContext.Controller.ViewData,
             };
+
+            //区分DALException
             //日志记录log4net
             filterContext.ExceptionHandled = true;
         }

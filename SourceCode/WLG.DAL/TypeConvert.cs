@@ -15,7 +15,7 @@ namespace WLG.DAL
     /// 修改人：
     /// 修改原因：
     /// </summary>
-    public class TypeConvert
+    internal class TypeConvert
     {
         /// <summary>
         /// DataTable 转换为List 集合
