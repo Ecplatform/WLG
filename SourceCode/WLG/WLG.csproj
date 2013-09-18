@@ -88,6 +88,7 @@
     <Compile Include="Areas\Admin\Controllers\ShopController.cs" />
     <Compile Include="Areas\Admin\Controllers\SysController.cs" />
     <Compile Include="Areas\Admin\Controllers\WeiXinController.cs" />
+    <Compile Include="Areas\Admin\ViewModels\Register.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
@@ -1995,7 +1996,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Areas\Admin\UploadFiles\" />
-    <Folder Include="Areas\Admin\ViewModels\" />
     <Folder Include="Content\themes\theme1\" />
     <Folder Include="Content\themes\theme2\" />
     <Folder Include="Content\themes\theme3\" />
@@ -2047,9 +2047,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Account\Orders.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Areas\Admin\Views\Account\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\Admin\Views\Account\ForgetPassword.cshtml" />
@@ -2142,6 +2139,7 @@
     <Content Include="Areas\Admin\Views\Products\CategoryEdit.cshtml" />
     <Content Include="Areas\Admin\Views\Products\CategoryAdd.cshtml" />
     <Content Include="Areas\Admin\Views\Products\CategoryPartial.cshtml" />
+    <Content Include="Areas\Admin\Views\Account\Register.cshtml" />
     <None Include="Content\js\jquery-easyui-1.3.3\themes\black\images\Thumbs.db" />
     <None Include="Content\js\jquery-easyui-1.3.3\themes\bootstrap\images\Thumbs.db" />
     <None Include="Content\js\jquery-easyui-1.3.3\themes\default\images\Thumbs.db" />

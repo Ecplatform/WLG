@@ -18,7 +18,7 @@ namespace WLG.Areas.Admin.Controllers
             return View();
         }
 
-        public ActionResult SignUp()
+        public ActionResult Register()
         {
             return View();
         }
